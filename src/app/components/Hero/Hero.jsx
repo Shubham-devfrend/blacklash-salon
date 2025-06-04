@@ -35,7 +35,7 @@ const Hero = () => {
         initial={{ opacity: 0, x: 30 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
-        className="flex-1 w-full lg:w-[43%] absolute left-[52%]"
+        className="hidden lg:block flex-1 w-full lg:w-[43%] absolute left-[52%]"
       >
         <Image
           src="/hero.svg"
